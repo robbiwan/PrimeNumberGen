@@ -70,7 +70,7 @@ public class PrimeNumberGeneratorImpl implements PrimeNumberGenerator {
 		}
 		
 		if (logger.isDebugEnabled()) {
-            logger.debug("isPrime() begin");
+            logger.debug("isPrime() end");
 		}
 		return true;
 
