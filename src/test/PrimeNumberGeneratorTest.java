@@ -47,7 +47,7 @@ public class PrimeNumberGeneratorTest {
 	@Test
 	public void testIsPrime() {
 
-		logger.info("testRangeScenario3() begin");
+		logger.info("testIsPrime) begin");
 
 		PrimeNumberGenerator pmg = new PrimeNumberGeneratorImpl();
 
@@ -55,7 +55,7 @@ public class PrimeNumberGeneratorTest {
 		assertEquals(true, pmg.isPrime(7907));
 		assertEquals(true, pmg.isPrime(7919));
 
-		logger.info("testRangeScenario3() end");
+		logger.info("testIsPrime end");
 
 	}
 
